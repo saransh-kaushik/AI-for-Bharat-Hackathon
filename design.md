@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Educational AI Platform is a TypeScript-based web application that provides multi-modal AI-powered learning experiences. The system integrates Azure OpenAI for language processing, PineconeDB for vector storage, and Azure Voice Live for speech capabilities. The architecture follows a modular design with clear separation between frontend interfaces, backend services, and external integrations.
+The KNOVA is a TypeScript-based web application that provides multi-modal AI-powered learning experiences. The system integrates Azure OpenAI for language processing, PineconeDB for vector storage, and Azure Voice Live for speech capabilities. The architecture follows a modular design with clear separation between frontend interfaces, backend services, and external integrations.
 
 ## Architecture
 
@@ -289,4 +289,5 @@ The system will employ both unit testing and property-based testing to ensure co
 - **Unit Test Coverage**: Minimum 80% code coverage for all business logic
 - **Property Test Coverage**: All 12 correctness properties must have corresponding property-based tests
 - **Integration Coverage**: All external service integrations must have integration tests
+
 - **E2E Coverage**: Critical user journeys (chat, document upload, speech interaction) must have end-to-end tests
